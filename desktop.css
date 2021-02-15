@@ -1,0 +1,214 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+}
+
+
+/*navber design starting*/
+
+.nav-logo{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.nav-heading{
+    text-align: right;
+    padding-top: 15px;
+    
+}
+
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 21px 0;
+    background-color: transparent;
+}
+
+/*navber design ending*/
+
+
+/*protfolio design starting*/
+
+.profile .icon{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+.profile .icon:hover{
+    transform: rotate(30deg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile .icon2{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    transition: 0.5s;
+}
+
+.profile .icon2:hover{
+    transform: rotate(-30deg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+.profile-des h1{
+    top: 10px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.profile-des p{
+    color: rgb(114, 108, 108);
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+/*protfolio design ending*/
+
+/*about me design starting*/
+
+.siam{
+    height: 580px;
+    width: 560px;
+    right: 300px;
+}
+
+/*about me design ending*/
+
+
+/* exprience design starting here*/
+
+
+/* educational exprience design starting */
+.educational-exp{
+    padding: 1% 6%;
+}
+
+.educational-exp .card{
+    background-color: #a39e9e;
+    border-radius: 6px;
+    padding: 12px;
+    transition: 0.3s;
+    height: 770px;
+}
+/* educational exprience design ending */
+
+
+/* work exprience design starting */
+.work-exp{
+    padding: 1% 6%;
+}
+
+.work-exp .card{
+    background-color: #3d7c81;
+    border-radius: 6px;
+    padding: 12px;
+    transition: 0.3s;
+    height: 770px;
+}
+/* educational exprience design ending */
+
+
+
+
+/* skills design starting */
+
+
+
+/* skills design ending */
+
+.skills{
+    padding: 1% 6%;
+}
+
+.skills .card{
+    background-color: #575897;
+    border-radius: 6px;
+    padding: 12px;
+    transition: 0.3s;
+    height: 770px;
+}
+
+/* exprience design starting here*/
+
+
+/* achievement-contact design starting */
+
+/* contact-links design starting */
+
+.contact-links{
+    position: relative;
+}
+
+.media-buttons{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    transform: translate(-116%, -70%);
+    margin-top: 210px;
+}
+
+/* contact-links design starting */
+
+/* achievement-contact design ending */
+
+
+
+/* footer design starting here */
+
+.footer-menu{
+    margin-top: 12px;
+}
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+
+.footer-desc{
+    margin-top: 5px;
+}
+
+/* footer design ending here */
